@@ -1,0 +1,40 @@
+/* src/TodoApp.css */
+
+.todo-app {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .todo-form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    background-color: #969191;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-list li.completed {
+    background-color: #52ddf0;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #979797;
+  }
+  
