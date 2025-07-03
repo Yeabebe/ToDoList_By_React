@@ -24,6 +24,7 @@ A simple and functional To-Do list application built with React. Users can add, 
 ---
 
 ## 📂 Project Structure
+```
 
 todo-app/
 ├── src/
@@ -34,7 +35,7 @@ todo-app/
 │ ├── TodoApp.css # Styling for the app
 │ └── index.js # Entry point
 └── README.md
-
+```
 yaml
 Copy
 Edit
